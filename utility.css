@@ -1,0 +1,64 @@
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+.justify{
+    justify-content: center;
+}
+.items-center{
+    align-items: center;
+}
+
+.flex{
+    display: flex;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.invert{
+    filter: invert(1);
+}
+
+.bg-gray{
+    background-color: #121212;
+}
+
+.rounded{
+    border-radius: 7px;
+}
+.m-1{
+    margin: 5px;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #333; /* Color of the scrollbar */
+    border-radius: 5px; /* Roundness of the scrollbar thumb */
+  }
+ 
+  body {
+    scrollbar-width: thin; /* "auto" is another option */
+    scrollbar-color: #333 transparent; /* Color of the scrollbar and track */
+    -ms-overflow-style: none; /* Hide the scrollbar for Edge Legacy */
+  }
+  
+  body::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #333; /* Color of the scrollbar */
+    border-radius: 5px; /* Roundness of the scrollbar thumb */
+  }
+  
